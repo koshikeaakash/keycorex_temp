@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none">
+  <defs>
+    <linearGradient id="purple" x1="55" y1="55" x2="300" y2="305" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.48" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#5B21B6"/>
+    </linearGradient>
+    <linearGradient id="word" x1="350" y1="150" x2="1010" y2="210" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6D28D9"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- K + Core symbol -->
+  <g transform="translate(38 38)">
+    <!-- vertical K stem -->
+    <path d="M0 0H62V284H0V0Z" fill="url(#purple)"/>
+    <!-- upper K arm -->
+    <path d="M70 132L188 0H270L139 145L270 284H188L70 162V132Z" fill="url(#purple)"/>
+    <!-- central core -->
+    <path d="M130 106L166 70L202 106L166 142L130 106Z" fill="#FFFFFF"/>
+    <path d="M130 178L166 142L202 178L166 214L130 178Z" fill="#FFFFFF"/>
+    <!-- subtle core diamond -->
+    <path d="M145 142L166 121L187 142L166 163L145 142Z" fill="#6D28D9"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="365" y="220"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="116"
+        font-weight="700"
+        letter-spacing="8"
+        fill="url(#word)">KEYCOREX</text>
+
+  <!-- Descriptor -->
+  <text x="370" y="270"
+        font-family="Inter, Arial, Helvetica, sans-serif"
+        font-size="24"
+        font-weight="500"
+        letter-spacing="7"
+        fill="#716B7D">IDENTITY • ACCESS • CONTROL</text>
+</svg>
